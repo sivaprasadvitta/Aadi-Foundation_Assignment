@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://sivaprasadvitta.github.io/Aadi-Foundation_Assignment/src/index.html",
+  "homepage": "https://sivaprasadvitta.github.io/Aadi-Foundation_Assignment/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
