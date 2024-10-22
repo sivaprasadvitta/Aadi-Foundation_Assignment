@@ -38,7 +38,7 @@ const projectList = [
   {
     title: "SV-Bog",
     description: "Sv-Blog is a bloging app which post the intersting post rrelated to tech and other related in this project mainly focus on the crud and full stack mern",
-    url: "https://github.com/sivaprasad/SV-Blog",
+    url: "https://github.com/sivaprasadvitta/SV-Blog",
   },
   {
     title: "Static Amazon Clone-Live",
