@@ -29,7 +29,7 @@ const siteProps = {
   email: "sivaprasad.vitta@gmail.com",
   gitHub: "sivaprasadvitta",
   instagram: "microsoft",
-  linkedIn: "satyanadella",
+  linkedIn: "Sivaprasadvitta",
   medium: "",
   twitter: "microsoft",
   youTube: "Code",
