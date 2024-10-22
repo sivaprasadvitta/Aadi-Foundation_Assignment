@@ -31,21 +31,19 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Codehere-Coding Platform",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "sdfs",
+    title: "Codehere- A Coding Platform",
+    description: "Code here is the coding platform where the students can paractice the dsa questions and we intergrated the newly fetures like not allowing copy pasting,full screen mode and organizations can also conducts the contests for the students and more futtures are email notifications,creation of contest and virtual contest ",
+    url: "https://codehere-v1.web.app",
   },
   {
-    title: "Web Development for Beginners",
-    description: "Sv-Blog is a blog app which post the blog posts",
+    title: "SV-Bog",
+    description: "Sv-Blog is a bloging app which post the intersting post rrelated to tech and other related in this project mainly focus on the crud and full stack mern",
     url: "https://github.com/sivaprasad/SV-Blog",
   },
   {
     title: "Static Amazon Clone-Live",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/sivaprasad/",
+    description: "In this project i just create the home page of the amazon which to get the all basic stuff like plain html ,css, some functionalities using javascript",
+    url: "https://sivaprasadvitta.github.io/Amazon-clone/",
   },
   // {
   //   title: "GitHub Codespaces and github.dev",
