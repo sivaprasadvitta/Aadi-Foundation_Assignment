@@ -96,14 +96,14 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
+.containerPortfoloi {
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
   margin: 20px auto;
   display: grid;
 }
 
-.container .box {
+.containerPortfoloi .box {
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -116,6 +116,126 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+.container {
+  color: #000;
+  text-transform: uppercase;
+  height: 100vh;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  font-size: 2.26rem;
+  animation: fadeIn 2s ease-in-out forwards;
+  display: flex;
+  position: absolute;
+}
+
+.container > p {
+  text-align: left;
+  color: #fff;
+  font-size: 40px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes helloTextAnimation {
+  0% {
+    opacity: .5;
+    transform: translateY(-10px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: .5;
+    transform: translateY(10px);
+  }
+}
+
+.animation {
+  height: 50px;
+  margin-left: 1rem;
+  overflow: hidden;
+}
+
+.animation > div > div {
+  height: 2.81rem;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 2.81rem;
+  padding: .25rem .75rem;
+  animation: colorShift 8s ease-in-out infinite;
+  display: inline-block;
+  box-shadow: 0 4px 15px #0003;
+}
+
+.animation div:first-child {
+  animation: textAnimation 8s ease-in-out infinite;
+}
+
+@keyframes colorShift {
+  0%, 25% {
+    opacity: .9;
+  }
+
+  50%, 75% {
+    opacity: .6;
+  }
+
+  100% {
+    opacity: .9;
+  }
+}
+
+@keyframes textAnimation {
+  0% {
+    margin-top: 0;
+  }
+
+  10%, 25% {
+    margin-top: 0;
+  }
+
+  35%, 50% {
+    margin-top: -5.62rem;
+  }
+
+  60%, 75% {
+    margin-top: -11.24rem;
+  }
+
+  85%, 100% {
+    margin-top: 0;
+  }
+}
+
+.animation div div {
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.05);
+  }
 }
 
 @media (max-width: 768px) {
@@ -145,13 +265,11 @@ img.socialIcon {
   }
 
   section img.background {
-    height: auto;
-    width: 100vw;
-    object-fit: cover;
-    transform: translateX(0);
+    height: 100%;
+    width: 100%;
   }
 
-  .container {
+  .containerPortfoloi {
     grid-gap: 15px;
     max-width: 90vw;
     flex-direction: column;
@@ -159,8 +277,7 @@ img.socialIcon {
     display: flex;
   }
 
-  .container .box {
-    width: 100%;
+  .containerPortfoloi .box {
     padding: 20px;
   }
 
