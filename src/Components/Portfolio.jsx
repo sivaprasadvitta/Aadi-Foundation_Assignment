@@ -32,17 +32,20 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Codehere- A Coding Platform",
-    description: "Code here is the coding platform where the students can paractice the dsa questions and we intergrated the newly fetures like not allowing copy pasting,full screen mode and organizations can also conducts the contests for the students and more futtures are email notifications,creation of contest and virtual contest ",
+    description:
+      "Code here is the coding platform where the students can paractice the dsa questions and we intergrated the newly fetures like not allowing copy pasting,full screen mode and organizations can also conducts the contests for the students and more futtures are email notifications,creation of contest and virtual contest ",
     url: "https://codehere-v1.web.app",
   },
   {
     title: "SV-Bog",
-    description: "Sv-Blog is a bloging app which post the intersting post rrelated to tech and other related in this project mainly focus on the crud and full stack mern",
+    description:
+      "Sv-Blog is a bloging app which post the intersting post rrelated to tech and other related in this project mainly focus on the crud and full stack mern",
     url: "https://github.com/sivaprasadvitta/SV-Blog",
   },
   {
     title: "Static Amazon Clone-Live",
-    description: "In this project i just create the home page of the amazon which to get the all basic stuff like plain html ,css, some functionalities using javascript",
+    description:
+      "In this project i just create the home page of the amazon which to get the all basic stuff like plain html ,css, some functionalities using javascript",
     url: "https://sivaprasadvitta.github.io/Amazon-clone/",
   },
   // {
@@ -65,7 +68,7 @@ const Portfolio = () => {
             alt={imageAltText}
           />
         </div>
-        <div className="container">
+        <div className="containerPortfoloi">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
